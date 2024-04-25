@@ -1,0 +1,57 @@
+@font-face  {
+  
+  font-family: 'Papyrus';
+  src: url('papyrus.ttf') format("truetype");
+  
+}
+
+body  {
+  
+  font-family: 'Papyrus';
+  
+}
+
+.center {
+  
+  margin-top:7%;
+  text-align:center;
+  
+}
+
+table {
+  
+  margin:0 auto 0 auto;
+  text-align:center;
+  
+}
+
+tr, td {
+  
+  border:1px solid black;
+  
+}
+
+td:nth-child(even) {
+  
+  border:2px solid orange;
+  
+}
+
+tr:first-child, td:first-child  {
+  
+  font-weight:bold;
+  
+}
+
+a {
+  
+  font-size:20px;
+  transition:font-size 0.5s;
+  
+}
+
+a:hover {
+  
+  font-size:25px;
+  
+}
