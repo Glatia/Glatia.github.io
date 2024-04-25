@@ -55,3 +55,9 @@ a:hover {
   font-size:25px;
   
 }
+
+td:last-child  {
+
+  font-weight:bold;
+
+}
