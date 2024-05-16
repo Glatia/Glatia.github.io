@@ -1,0 +1,113 @@
+@keyframes flipCard {
+  
+  0% {
+    
+    transform: rotate3d(0, 1, 0, 0deg);
+    font-size: 100%;
+    
+  }
+  
+  50% {
+    
+    transform: rotate3d(0, 1, 0, 90deg);
+    
+  }
+  
+}
+
+@keyframes flipText {
+  
+  0% {
+    
+    transform: rotate3d(0, 1, 0, 360deg);
+  
+  }
+  
+}
+
+body  {
+  
+  background-color: gray;
+  text-align:center;
+  
+}
+
+div {
+  
+  text-align: center;
+  margin:auto;
+  font-size: 0.75em;
+  
+}
+
+#master {
+  
+  width: 20%;
+  height: 125px;
+  margin: 10% auto 0 auto;
+  
+}
+
+.flashcard {
+  
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+.answer {
+  
+  transition: opacity 1s ease;
+  opacity: 0;
+  
+}
+
+.hoverbox {
+  
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+.hoverbox:hover > .flashcard {
+  
+  animation-name: flipCard;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  
+}
+.hoverbox:hover > .flashcard .answer {
+  
+  transition: opacity 2s ease;
+  opacity: 1;
+  
+}
+
+.answer_image {
+  
+  opacity: 0;
+  transition: opacity 1s ease;
+  
+}
+
+.hoverbox:hover > .flashcard .answer_image {
+  
+  transition: opacity 2s ease;
+  transition-delay: 0.5s;
+  opacity: 1;
+  
+}
+#header {
+  
+  font-size:30px;
+  color:black;
+  animation-name: flipText;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  
+}
