@@ -14,6 +14,22 @@
   }
   
 }
+@keyframes unflipCard {
+  
+  from {
+    
+    transform: rotate3d(0, 1, 0, 180deg);
+    font-size: 100%;
+    
+  }
+  
+  to {
+    
+    transform: rotate3d(0, 1, 0, 0deg);
+    
+  }
+  
+}
 
 @keyframes flipText {
   
@@ -54,12 +70,13 @@ div {
   height: 100%;
   background-color: white;
   border-radius: 10px;
+  animation: unflipCard 1s linear;
   
 }
 
 .answer {
   
-  transition: opacity 1s ease;
+  transition: opacity 0s ease 0.5s;
   opacity: 0;
   
 }
@@ -69,20 +86,31 @@ div {
   width: 100%;
   height: 100%;
   
-  
 }
 
 .hoverbox:hover > .flashcard {
   
-  animation-name: flipCard;
-  animation-timing-function: linear;
-  animation-duration: 1s;
-  
+  animation: flipCard 1s linear;
 }
+
 .hoverbox:hover > .flashcard .answer {
   
-  transition: opacity 2s ease;
+  transition: opacity 0s ease 0.5s;
   opacity: 1;
+  
+}
+
+.question {
+  
+  transition: opacity 0s ease 0.5s;
+  opacity: 1;
+  
+}
+
+.hoverbox:hover > .flashcard .question {
+  
+  transition: opacity 0s ease 0.5s;
+  opacity: 0;
   
 }
 
@@ -96,7 +124,7 @@ div {
 .hoverbox:hover > .flashcard .answer_image {
   
   transition: opacity 2s ease;
-  transition-delay: 0.5s;
+  transition-delay:0.5s;
   opacity: 1;
   
 }
