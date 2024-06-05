@@ -1,0 +1,246 @@
+@font-face {
+  
+  font-family: balthazar;
+  src: url(Balthazar-Regular.ttf);
+  
+}
+
+html, body {
+  
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.navbar {
+  
+  background-color: #000985;
+  overflow: hidden;
+  
+  text-align: center;
+  
+  top: 0;
+  left: 0;
+  margin: 0;
+  
+}
+
+.navbar a {
+  
+  font-family: balthazar;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  
+  color: #ff8000;
+  float: left;
+  padding: 20px 20px;
+  transition: 0.25s;
+  
+}
+
+.navbar a.active {
+  
+  background-color: #0011ff;
+  color: white;
+  transition-duration: 0.25s;
+  
+}
+
+.navbar a:hover {
+  
+  background-color: #0011ff;
+  color: white;
+  transition-duration: 0.25s;
+  
+}
+
+.page-header {
+  
+  font-family: balthazar;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.center-content {
+  
+  text-align: center;
+  
+}
+
+.center-content-subteam {
+  
+  text-align: center;
+  font-size: 0;
+  
+}
+
+.page-paragraph {
+  
+  font-family: balthazar;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.sidebar {
+  
+  background-color: #010173;
+  color: white;
+  
+  height: 100%;
+  
+  padding-right: 5px;
+  
+  position: fixed;
+  right: 0;
+  top: 0px;
+  
+}
+
+.sidebar-text {
+  
+  font-family: balthazar;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff8000;
+  
+  margin-right: 10px;
+  
+  transition-duration: 0.1s;
+  
+}
+
+.sidebar-text:hover {
+  
+  text-decoration: underline;
+  color: white;
+  transition-duration: 0.25s;
+  
+}
+
+.page-subheader {
+  
+  font-family: balthazar;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.divider {
+  
+  width: 100%;
+  height: 100px;
+  
+  background-color: #000985;
+  color: #ff8000;
+  
+  font-family: balthazar;
+  font-weight: bold;
+  font-size: 80px;
+  
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.sponsor-divider {
+  
+  width: 100%;
+  height: 100px;
+  
+  background-color: #000985;
+  color: #ff8000;
+  
+  font-family: balthazar;
+  font-weight: bold;
+  font-size: 50px;
+  
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.nav-icon {
+  
+  float: left;
+  height: 60px;
+  transition-duration: 0.25s;
+  
+}
+
+.nav-icon:hover {
+  
+  background-color: #0011ff;
+  transition-duration: 0.25s;
+  
+}
+
+
+figcaption {
+  
+  font-family: balthazar;
+  font-size: 25px;
+  
+}
+
+.design {
+  
+  
+  background-image: url(https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/FL_3D_Modelling_Blog_Header_1500x750.jpg.optimal.jpg);
+  background-attachment: fixed;
+  height: 300px;
+  
+  display: block;
+  
+}
+
+.mechanicals {
+  
+  
+  background-image: url(https://www.bobvila.com/wp-content/uploads/2020/04/six-things-to-know-before-cutting-metal.jpg);
+  background-attachment: fixed;
+  height: 300px;
+  
+  display: block;
+  
+}
+
+.controls {
+  
+  
+  background-image: url(https://media.team254.com/2017/09/8efe07b0-p2.jpg);
+  background-attachment: fixed;
+  height: 300px;
+  
+  display: block;
+  
+}
+
+.programming {
+  
+  
+  background-image: url(https://assets.techrepublic.com/uploads/2023/06/tra61223-python-bundle.png);
+  background-attachment: fixed;
+  height: 300px;
+  
+  display: block;
+  
+}
+
+.business {
+  
+  
+  background-image: url(https://cdn.corporatefinanceinstitute.com/assets/cash-ratio.jpg);
+  background-attachment: fixed;
+  height: 300px;
+  
+  display: block;
+  
+}
+
